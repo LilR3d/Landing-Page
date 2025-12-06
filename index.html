@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Landing Page</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <h1 class="logo">Our Company</h1>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about" class="section">
+        <h2>About Us</h2>
+        <p><strong>
+          We are a modern company focused on providing innovative solutions and
+          quality services. Our team is committed to excellence and customer
+          satisfaction.</strong>
+        </p>
+      </section>
+
+      <section id="products" class="section">
+        <h2>Our Products</h2>
+
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="assets/PetPal.png" alt="PetPal image" />
+            <h3><i class="fa-solid fa-box"></i>PetPal</h3>
+            <p>
+              Your smart pet-care assistant. Track feedings, vet visits, and
+              reminders—all in one easy app.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <img src="assets/AuraClean.png" alt="AuraClean image" />
+            <h3><i class="fa-solid fa-bolt"></i>AuraClean</h3>
+            <p>
+              An intelligent air purifier that removes allergens and odors while
+              automatically adjusting to your homes needs.
+            </p>
+          </div>
+
+          <div class="product-card">
+            <img src="assets/PlantPal.png" alt="PlantPal image" />
+            <h3><i class="fa-solid fa-gears"></i>PlantPal</h3>
+            <p>
+              A simple plant-care helper that monitors light and moisture to
+              keep every plant thriving.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact Us</h2>
+
+        <form>
+          <label>Name</label>
+          <input id="nameInput" type="text" required />
+
+          <label>Email</label>
+          <input id="emailInput" type="email" required />
+
+          <label>Message</label>
+          <textarea id="messageInput" rows="5" required></textarea>
+
+          <button type="button" onclick="saveData()">Save Data</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Our Company.</p>
+
+      <div class="social">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
